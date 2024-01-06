@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 30px 0px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 20px;
+    position: sticky;
+    top:0;
+    border: 4px solid white;
+}
+
+.navItems{
+    color: white;
+}
+
+.navItems>ul>li{
+    display: inline;
+    padding: 0px 20px;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+.navItems>ul>li:hover{
+    background-color: rgb(255, 255, 255,0.2);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navItems>ul>li:active{
+    background-color: white;
+    color: black;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin: 15px;
+}
+.gridContainer>div{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+}
+.project{
+    grid-row: span 2;
+}
+
+.personalInformation{
+    grid-column: span 2;
+}
+
+.project h1{
+    margin: 20px 0px;
+    text-align: center;
+
+}
+
+.skills>h1{
+    margin: 20px;
+}
+.tags{
+    margin: 20px 0px;
+}
+.tag{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    border: 2px solid black;
+}
+.tag:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.skills>ul{
+    padding-left: 30px;
+}
+
+.contact>h1{
+    margin: 20px;
+}
+
+.links>div{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    padding: 5px 15px;
+    
+}
+.links>div>a{
+    color: white;
+}
+.links>div:hover{
+    background-color: rgb(255, 255, 255,0.2);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.links>div:active{
+    background-color: white;
+    color: black;
+}
+
+.tempWindow{
+    width: 100vw;
+    height: 100vh;
+    background-color: #231f20e0;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+

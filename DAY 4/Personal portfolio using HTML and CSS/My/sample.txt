@@ -1,0 +1,23 @@
+console.log('ks vk sdkjv ');
+
+const project = document.querySelector('.proj');
+const skills = document.querySelector('.skil');
+const contact = document.querySelector('.contact');
+const personalInformation = document.querySelector('.personalInformation');
+
+const w = document.getElementById('tempWindow');
+
+project.addEventListener('click', function () {
+	console.log('advd');
+});
+
+function openDetail(s) {
+	console.log('advd');
+	var allElements = document.querySelectorAll('*');
+	w.setAttribute('class', 'tempWindow');
+	for (var i = 0; i < allElements.length; i++) {
+		var element = allElements[i];
+		element.style.zIndex = -1;
+	}
+	document.getElementById(s).style.zIndex = 1;
+}

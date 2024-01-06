@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="header">
+			<center>
+				<div class="navItems">
+					<ul>
+						<li onclick="openDetail('project')">Project</li>
+						<li onclick="openDetail('skills')">skills</li>
+						<li onclick="openDetail('contact')">Contact</li>
+						<li onclick="openDetail('personalInformation')">
+							Personal Information
+						</li>
+					</ul>
+				</div>
+			</center>
+		</div>
+		<div class="gridContainer">
+			<div class="project" id="project">
+				<h1>Shopping App</h1>
+				<div class="tags">
+					<div class="tag">Python</div>
+					<div class="tag">Django</div>
+					<div class="tag">Mysql</div>
+				</div>
+				<p>
+					The web application is designed for online shopping, providing users
+					with essential features such as user authentication through login and
+					signup functionalities. Users can create accounts by signing up with a
+					valid email address and password. The login system ensures secure
+					authentication, granting access to personalized features and a
+					tailored user experience.
+				</p>
+
+				<h1>Shopping App</h1>
+				<div class="tags">
+					<div class="tag">Python</div>
+					<div class="tag">Django</div>
+					<div class="tag">Mysql</div>
+				</div>
+				<p>
+					The web application is designed for online shopping, providing users
+					with essential features such as user authentication through login and
+					signup functionalities. Users can create accounts by signing up with a
+					valid email address and password. The login system ensures secure
+					authentication, granting access to personalized features and a
+					tailored user experience.
+				</p>
+			</div>
+			<div class="skills" id="skills">
+				<h1>Skills</h1>
+				<div class="tags">
+					<div class="tag">Python</div>
+					<div class="tag">DBMS</div>
+					<div class="tag">HTML5</div>
+					<div class="tag">CSS3</div>
+					<div class="tag">JavaScript</div>
+					<div class="tag">Bootstrap</div>
+					<div class="tag">MongoDB</div>
+					<div class="tag">Flask</div>
+					<div class="tag">Tkinter</div>
+					<div class="tag">Canva</div>
+				</div>
+			</div>
+			<div class="contact" id="contact">
+				<h1>Social Media</h1>
+				<div class="links">
+					<div class="linkedin">
+						<a href="http://linkedin.com/in/mr-sasikumar-k/" target="_blank"
+							>Linkedin</a
+						>
+					</div>
+					<div class="github">
+						<a href="https://github.com/SASIKUMAR-K" target="_blank">GitHub</a>
+					</div>
+					<div class="leetcode">
+						<a href="https://leetcode.com/SASIKUMAR_K/" target="_blank"
+							>Leetcode</a
+						>
+					</div>
+					<div class="email">
+						<a href="mailto:sasikumar05112004@gmail.com">Email</a>
+					</div>
+				</div>
+			</div>
+			<div class="personalInformation" id="personalInformation">
+				<center><h1>Personal Information</h1></center>
+				<div class="personalGrid">
+					<div class="myImage"></div>
+					<div class="myInfo"></div>
+				</div>
+			</div>
+		</div>
+		<div id="tempWindow"></div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
